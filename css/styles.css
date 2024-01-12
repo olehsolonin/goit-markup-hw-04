@@ -164,6 +164,20 @@ section {
 	background-color: #2E2F42;
 }
 
+.hero-bgi {
+	/* max-width: 1440px;
+	height: 600px; */
+	margin: 0 auto;
+	background-image: linear-gradient(
+		rgba(46, 47, 66, 0.7), 
+		rgba(46, 47, 66, 0.7)
+		), url(../images/people-office.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1440px 600px;
+	
+}
+
 .hero-mod {
 	padding-top: 188px;
 	padding-bottom: 188px;

@@ -46,6 +46,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	align-items: center;
 	flex-shrink: 0;
 	border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -108,6 +109,10 @@ margin-right: 76px;
 
 }
 
+.heder-span {
+	color:#404BBF;
+}
+
 .header-item-link:hover,
 .header-item-link:focus {
 color:#404BBF;
@@ -119,7 +124,7 @@ letter-spacing: 0.02em;
 
 .studio {
 	position: relative;
-	color:#404BBF
+	color:#404BBF;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -164,6 +169,7 @@ font-style: normal;
 	font-weight: 400;
 	line-height: 1.50;
 	letter-spacing: 0.02em;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .address-item-link:hover,
@@ -191,8 +197,7 @@ section {
 }
 
 .hero-bgi {
-	/* max-width: 1440px;
-	height: 600px; */
+	max-width: 1440px;
 	margin: 0 auto;
 	background-image: linear-gradient(
 		rgba(46, 47, 66, 0.7), 
@@ -200,7 +205,7 @@ section {
 		), url(../images/people-office.jpg); 
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 1440px 600px;
+	background-size: cover;
 	
 }
 
@@ -246,6 +251,7 @@ padding: 16px 32px;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 cursor: pointer;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -297,6 +303,10 @@ padding: 24px 0;
 border-radius: 4px;
 border: 1px solid #8E8F99;
 background:#F4F4FD;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 8px; 
 
 }
 
@@ -312,7 +322,7 @@ background:#F4F4FD;
 	line-height: 1.20;
 	letter-spacing: 0.02em;
 	background-color: #FFFFFF;
-	margin: 8px 0;
+	margin-bottom: 8px;
 	/* margin-bottom: 8px; */
 }
 
@@ -446,12 +456,14 @@ background-color: #4D5AE5;
 	box-shadow: none;
 	transition-property: box-shadow;
 	overflow: hidden;
+	
 }
 
 .portfolio-items:hover {
 	box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	
 
 }

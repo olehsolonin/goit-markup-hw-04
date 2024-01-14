@@ -609,7 +609,7 @@ flex-shrink: 0;
 }
 
 .footer-icon-mod:hover,
-.footer-icon-mod:active {
+.footer-icon-mod:focus {
 	background-color: #31D0AA;
 }
 
